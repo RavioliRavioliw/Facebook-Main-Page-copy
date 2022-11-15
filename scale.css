@@ -1,0 +1,296 @@
+body {
+	padding: 0;
+	margin: 0;
+	background: rgb(241, 242, 246);
+	
+	font-family: Helvetica, sans-serif ;
+	display: flex;
+	min-height:  100vh;
+	flex-direction: column;
+}
+
+div{
+	
+}
+
+.main_flex{
+	display: flex;
+	margin-top: 10%;
+	padding-top: 0px;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#main_logo{
+	width: 400px;
+	height: 280px;
+	margin-right: 20%;
+	padding-top: 0px;
+
+	
+}
+
+#face_logo{
+	color: rgb(22, 111, 229);
+	font-size: 68px;
+	width: 420px;
+	height: 100px;
+	letter-spacing: -6px;
+	margin: 17% 20% 0px 100px;
+	padding-bottom: 0px;
+
+	
+}
+
+#pra  {
+	margin-top: 0px;
+	margin-left: 100px;
+	font-weight: lighter;
+	padding-top: 0px;
+	width: 420px;
+	height: 100px;
+	
+	padding-right: 10px;
+
+}
+
+.log_box{
+	background: white;
+	width: 300px;
+	height: 275px;
+	text-align: center;
+	padding: 10px 10px  20px 5px;
+	border-radius: 6px;
+	box-shadow: 1px 6px 10px #888888;
+	
+	
+	
+}
+
+.cas{
+	margin-bottom:0px;
+
+
+}
+
+.log_box div{
+	margin:8px;
+	padding:0px;
+}
+
+
+
+.log_btn{
+
+	width: 275px;
+	height: 40px;
+	margin-left: 0px;
+	margin-top:0px;
+	background: rgb(22, 111, 229);
+	color: white;
+	border-radius: 6px;
+	border: 0px;
+	font-size: 20px;
+	transition-duration: 0.4s ;
+	font-weight: bolder;
+	
+}
+
+.log_btn:hover{
+	background-color: rgb(22, 140, 229);
+	color: ghostwhite;
+	cursor:pointer;
+
+}
+
+
+
+.cas{
+	margin: 9px;
+	padding: 10px;
+	width: 250px;
+	border-radius: 6px;
+	border: 1px gray solid;
+	opacity: 0.5;
+	
+}
+
+.cas:placeholder{
+	color: blue;
+
+}
+
+.cas:focus{
+	outline: 1px solid rgb(22, 111, 229) ;
+}
+
+
+
+.lost_pass{
+	color: blue;
+}
+
+.lost_pass:link{
+	text-decoration: none;
+}
+
+.lost_pass:hover{
+	text-decoration: underline;
+}
+
+
+
+.new_account_btn{
+	margin-top: 15px;
+	width: 170px;
+	height: 40px;
+	background: rgb(66, 183, 42);
+	color: white;
+	border:0px;
+	border-radius: 6px;
+	transition-duration: 0.4s;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.new_account_btn:hover{
+	background: green;
+	color: white;
+	
+	cursor: pointer;
+}
+
+.reco{
+	text-align: right;
+	margin-right: 15%;
+	margin-top: 2%;
+	margin-bottom: auto;
+
+}
+
+footer{
+	
+	font-size: 15px;
+
+
+}
+
+.big_fo{
+	padding-top: 20px;
+	background: white;
+	margin: auto 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 12px;
+
+}
+
+
+
+.paises_1{
+	padding: 10;
+	border-bottom: 1px gray solid;
+	width: 790px;
+	padding-right: 23px;
+	padding-left: 0;
+
+}
+
+.paises_1 a{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: gray;
+	padding-top: 19px;
+}
+
+.paises_1 a:link{
+	text-decoration: none;
+}
+
+.paises_1 a:hover{
+	text-decoration: underline;
+}
+
+.paises_2{
+	width: 890px;
+	padding: 10;
+	padding-left: 70px;
+	padding-top: 1px;
+}
+
+.paises_2 a{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.paises_2 a:link{
+	text-decoration: none;
+}
+
+.paises_2 a:hover{
+	text-decoration: underline;
+}
+
+.paises_3{
+	width: 920px;
+	padding: 10;
+	padding-left: 100px;
+	padding-top: 8px;
+}
+
+.paises_3 a{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.paises_3 a:link{
+	text-decoration: none;
+}
+
+.paises_3 a:hover{
+	text-decoration: underline;
+}
+
+.terms{
+	width: 790px;
+	padding: 10;
+	padding-right: 27px;
+	padding-top: 8px;
+}
+
+.terms a{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: gray;
+}
+
+.terms a:link{
+	text-decoration: none;
+}
+
+.terms a:hover{
+	text-decoration: underline;
+}
+
+
+.final_box{
+	width: 790px;
+
+
+}
+
+.final{
+	color: #737373;
+	font-size: 12px;
+	
+
+}
+
+
+
+
